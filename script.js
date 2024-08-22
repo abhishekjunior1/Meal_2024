@@ -63,6 +63,6 @@ colors[0].style.backgroundColor = color[index];
 
 function displayRandomNumber() {
     var randomNumberDiv = document.getElementById('rand');
-    randomNumberDiv.textContent =  Math.floor(Math.random() * 9000) + 1000;
+    randomNumberDiv.textContent =  Math.floor(Math.random() * 9000) + 10000;
 }
 displayRandomNumber() ;
